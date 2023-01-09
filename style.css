@@ -1,0 +1,45 @@
+ @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
+
+ :root{
+    --font-family:  'Sofia Sans Extra Condensed', sans-serif;
+    --background-color: #5BC0F8;
+    --primary-color: #FFC93C;
+ }
+
+ body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+ }
+
+ h1{
+    font-size: 5em;
+ }
+ 
+ h3{
+    font-size: 3em;
+    margin-top: top 20px;
+ }
+
+ .mensagem{
+
+    font-size: 3em;
+    margin-top: 40px;
+    text-align: center;
+ }
+
+ .box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+ }
