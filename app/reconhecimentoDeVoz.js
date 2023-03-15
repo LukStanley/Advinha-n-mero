@@ -21,3 +21,7 @@ function exibeChuteTela(chute){
        <span class="box">${chute}</span> 
    `
 }
+
+recognition.addEventListener('end', () => {
+    recognition.start()
+})

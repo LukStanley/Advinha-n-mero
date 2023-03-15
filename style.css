@@ -23,6 +23,10 @@
     font-size: 5em;
  }
  
+ h2{
+      font-size: 4em;
+ } 
+
  h3{
     font-size: 3em;
     margin-top: top 20px;
@@ -42,4 +46,14 @@
     padding: 10px;
     margin: 20px;
     text-align: center;
+ }
+
+ .btn-jogar{
+      padding: 8px 15px;
+      border: 0;
+      background-color: rgb(111, 131, 155);
+      border-radius: 5px;
+      margin-top: 20px;
+      font-weight: bold;
+      
  }
